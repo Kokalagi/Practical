@@ -1,0 +1,42 @@
+package com;
+
+public class Object_classEg2 
+{
+	// Instance Variable / field
+	
+	int age;
+	String name;
+	String address;
+			
+	
+	
+	public static void main(String args[])
+	{
+		// Creating the object
+		
+		Object_classEg2 ob=new Object_classEg2();
+        ob.age = 30;
+        ob.name = "Rohit";
+        ob.address = "Pune";
+
+        // Create the second object
+        Object_classEg2 ob1=new Object_classEg2();
+        ob1.age = 22;
+        ob1.name = "Satish";
+        ob1.address = "Nagpur";
+
+        // Create the third object
+        Object_classEg2 ob2=new Object_classEg2();
+        ob2.age = 20;
+        ob2.name = "Akshay";
+        ob2.address = "Solapur";
+
+        // Print the information of the three students 
+        System.out.println("student 1: " + ob.age + "  , " + ob.name + ""+ob.address);
+        System.out.println("student 2: " + ob1.age + "  , " + ob1.name + ""+ob1.address);
+        System.out.println("student 3: " + ob2.age + "  , " + ob2.name + ""+ob2.address);
+    }
+}
+	}
+
+}
